@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import InterpolacionSimpleView from '../views/InterpolacionSimpleView.vue';
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/interpolacion-simple',
+    name: 'interpolacion-simple',
+    component: InterpolacionSimpleView
   },
   {
     path: '/about',
